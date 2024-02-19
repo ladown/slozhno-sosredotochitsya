@@ -1,4 +1,14 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+    --color-accent: #ff0070;
+    --color-accent-purple: #db00ff;
+    --color-dark: #000028;
+    --color-light: #f1b2ce;
+    --wrapper-size: 100%;
+    --wrapper-offset: 20px;
+}
+
+@media only screen and (max-width: 580px) {
+    :root {
+        --wrapper-offset: 10px;
+    }
+}

@@ -5,27 +5,39 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Сложно сосредоточиться</title>
+        <meta name="color-scheme" content="dark light" />
+        <link rel="stylesheet" href="./fonts/fonts.css" />
+        <link rel="stylesheet" href="./styles/app.css" />
     </head>
     <body class="page">
         <header class="header decorated-zone">
-            <nav class="header__theme-menu">
-                <ul class="header__theme-menu-list">
-                    <li class="header__theme-menu-item">
-                        <button class="header__theme-menu-button header__theme-menu-button_type_light">День</button>
-                    </li>
-                    <li class="header__theme-menu-item">
-                        <button
-                            class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-                            disabled
-                        >
-                            Авто
-                        </button>
-                    </li>
-                    <li class="header__theme-menu-item">
-                        <button class="header__theme-menu-button header__theme-menu-button_type_dark">Неон</button>
-                    </li>
-                </ul>
-            </nav>
+            <div class="header__wrapper wrapper">
+                <nav class="header__theme-menu">
+                    <ul class="header__theme-menu-list">
+                        <li class="header__theme-menu-item">
+                            <button class="header__theme-menu-button header__theme-menu-button_type_light">День</button>
+                        </li>
+                        <li class="header__theme-menu-item">
+                            <button
+                                class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+                                disabled
+                            >
+                                Авто
+                            </button>
+                        </li>
+                        <li class="header__theme-menu-item">
+                            <button class="header__theme-menu-button header__theme-menu-button_type_dark">Неон</button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__label" aria-hidden="true"></div>
+                <h1 class="header__title">no focus</h1>
+                <p class="header__subtitle text-decor">
+                    Что делать, когда не можешь делать ничего
+                    <br />
+                    Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+                </p>
+            </div>
         </header>
         <script src="./scripts/script.js"></script>
     </body>

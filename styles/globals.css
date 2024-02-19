@@ -12,6 +12,10 @@ body {
     margin: 0 auto;
 }
 
+main {
+    display: block;
+}
+
 h1,
 h2,
 h3,
@@ -35,8 +39,34 @@ picture {
 
 button,
 a {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    color: currentColor;
+    font: inherit;
+    color: inherit;
+    touch-action: manipulation;
+    user-select: none;
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+button {
+    padding: 0;
+    background: 0 0;
+    border: unset;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-skip-ink: none;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+button:focus,
+button:focus-visible,
+button:focus-within {
+    outline: none;
 }
