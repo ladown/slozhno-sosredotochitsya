@@ -1,8 +1,7 @@
 :root {
-    --color-accent: #ff0070;
-    --color-accent-purple: #db00ff;
-    --color-dark: #000028;
-    --color-light: #f1b2ce;
+    --color-accent: #ff8dcb;
+    --color-accent-purple: #ffc2e6;
+    --color-dark: #353430;
     --wrapper-size: 100%;
     --wrapper-offset: 20px;
     --common-text-shadow-offset: 2px;

@@ -5,7 +5,7 @@
 }
 
 .section-configurable__title {
-    color: var(--color-accent);
+    color: var(--color-dark);
 }
 
 .section-configurable__list_parent-columns-span {
@@ -27,7 +27,7 @@
 
 .section-configurable__text {
     margin-top: 10px;
-    color: var(--color-light);
+    color: var(--color-dark);
 }
 
 .section-configurable__text a {

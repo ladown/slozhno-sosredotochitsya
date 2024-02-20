@@ -21,7 +21,7 @@
     min-width: 70px;
     padding: 4px 13.6px;
     line-height: 1;
-    color: var(--color-accent);
+    color: var(--color-dark);
     text-align: center;
     text-transform: lowercase;
 }
@@ -58,7 +58,7 @@
     position: absolute;
     top: 20px;
     right: 29px;
-    display: flex;
+    display: none;
     flex-flow: row nowrap;
     gap: 10px;
     align-items: center;

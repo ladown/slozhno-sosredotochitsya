@@ -1,36 +1,4 @@
-.theme_light {
-    --color-accent: #ff8dcb;
-    --color-dark: #353430;
-    --color-accent-purple: #ffc2e6;
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --color-accent: #ff8dcb;
-        --color-accent-purple: #ffc2e6;
-        --color-dark: #353430;
-    }
-}
-
 .page.theme_light {
     background-color: #fff1f7;
     background-image: url('../images/cover-image-light.png');
-}
-
-.page.theme_light .header::before,
-.page.theme_light .header::after {
-    border-color: var(--color-dark);
-}
-
-.page.theme_light .header__label {
-    display: none;
-}
-
-.page.theme_light .header__theme-menu-button {
-    color: var(--color-dark);
-}
-
-.page.theme_light .section-configurable__title,
-.page.theme_light .section-configurable__text {
-    color: var(--color-dark);
 }
