@@ -2,9 +2,13 @@
     --color-accent: #ff8dcb;
     --color-accent-purple: #ffc2e6;
     --color-dark: #353430;
+    --page-background-image: url('../images/cover-image-light.png');
+    --page-background-color: #fff1f7;
     --header-label-display: none;
-    --page-background-image: url('../images/cover-image.png');
-    --page-background-color: transparent;
+    --header-theme-menu-button-color: var(--color-dark);
+    --section-configurable-text-color: var(--color-dark);
+    --section-configurable-title-color: var(--color-dark);
+    --decorative-angles-color: var(--color-dark);
     --wrapper-size: 100%;
     --wrapper-offset: 20px;
     --common-text-shadow-offset: 2px;
