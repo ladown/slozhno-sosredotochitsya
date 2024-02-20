@@ -1,5 +1,4 @@
-@import 'globals.css';
-@import 'header.css';
 @import 'section-core.css';
+@import 'header.css';
 @import 'section-configurable.css';
 @import 'footer.css';
