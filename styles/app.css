@@ -4,3 +4,5 @@
 @import 'dark.css';
 @import 'light.css';
 @import 'header.css';
+@import 'section-core.css';
+@import 'section-configurable.css';

@@ -29,3 +29,8 @@
 .page.theme_light .header__theme-menu-button {
     color: var(--color-dark);
 }
+
+.page.theme_light .section-configurable__title,
+.page.theme_light .section-configurable__text {
+    color: var(--color-dark);
+}

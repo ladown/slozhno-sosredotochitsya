@@ -26,6 +26,17 @@ p {
     margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: bold;
+    line-height: inherit;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -41,8 +52,6 @@ button,
 a {
     font: inherit;
     color: inherit;
-    touch-action: manipulation;
-    user-select: none;
 }
 
 button:not(:disabled) {
@@ -51,6 +60,8 @@ button:not(:disabled) {
 
 button {
     padding: 0;
+    touch-action: manipulation;
+    user-select: none;
     background: 0 0;
     border: unset;
 }
@@ -69,4 +80,8 @@ button:focus,
 button:focus-visible,
 button:focus-within {
     outline: none;
+}
+
+img {
+    max-width: 100%;
 }
