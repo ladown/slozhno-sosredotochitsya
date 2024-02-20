@@ -5,6 +5,7 @@
     --color-light: #f1b2ce;
     --wrapper-size: 100%;
     --wrapper-offset: 20px;
+    --common-text-shadow-offset: 2px;
 }
 
 @media only screen and (max-width: 580px) {
