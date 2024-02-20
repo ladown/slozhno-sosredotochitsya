@@ -2,6 +2,9 @@
     --color-accent: #ff8dcb;
     --color-accent-purple: #ffc2e6;
     --color-dark: #353430;
+    --header-label-display: none;
+    --page-background-image: url('../images/cover-image.png');
+    --page-background-color: transparent;
     --wrapper-size: 100%;
     --wrapper-offset: 20px;
     --common-text-shadow-offset: 2px;
