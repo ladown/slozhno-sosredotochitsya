@@ -20,6 +20,10 @@
     color: var(--color-dark);
 }
 
+.section-configurable__caption + ul {
+    margin-top: 20px;
+}
+
 .section-configurable__header {
     font-weight: 400;
     color: var(--color-dark);
