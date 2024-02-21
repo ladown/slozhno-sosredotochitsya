@@ -20,7 +20,7 @@
     color: var(--color-dark);
 }
 
-.section-configurable__caption + ul {
+.section-configurable__caption + ul:not(.section-configurable__gallery-list) {
     margin-top: 20px;
 }
 
